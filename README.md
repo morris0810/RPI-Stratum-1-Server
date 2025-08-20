@@ -1,4 +1,5 @@
-Raspberry Pi Stratum-1 NTP Server (GPS/PPS) + OPNsense + TrueNAS SCALE
+**Raspberry Pi Stratum-1 NTP Server (GPS/PPS) + OPNsense + TrueNAS SCALE**
+
 Turn a Raspberry Pi + GPS puck into a stratum-1 time source using chrony with GPS (NMEA) and PPS. Then point OPNsense and TrueNAS SCALE at it for rock-solid time across your network.
 ✅ This README is written for Pi OS/Debian-like systems and recent OPNsense/TrueNAS SCALE. Commands assume a Pi on Ethernet at 192.168.3.92 (Wi-Fi disabled) and a LAN 192.168.3.0/24. Adjust IPs to taste.
 Diagram

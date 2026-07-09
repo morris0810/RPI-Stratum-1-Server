@@ -6,9 +6,9 @@ This repo captures the exact setup that produced stable **nanosecond‑level** P
 
 * Hostnames used in examples:
 
-  * **gps** → Raspberry Pi 3B running *chrony* + *gpsd* (Ethernet static IP **192.168.2.2**; Wi‑Fi disabled)
-  * **opnsense** → firewall/router running *ntpd* (client of the Pi)
-  * **truenas** → TrueNAS SCALE (client of the Pi, chrony backend)
+  * **gps** > Raspberry Pi 3B running *chrony* + *gpsd* (Ethernet static IP **192.168.2.2**; Wi‑Fi disabled)
+  * **opnsense** > firewall/router running *ntpd* (client of the Pi)
+  * **truenas** > TrueNAS SCALE (client of the Pi, chrony backend)
 
 ---
 
